@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - ".github/workflows/reusable-**"
-      - ".github/workflows/actions**"
+      - ".github/workflows/actions**" # added triggers for composite-action
     tags:
       - "*"
   pull_request:
